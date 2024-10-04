@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maths API Documentation</title>
+</head>
+
+<body>
+    <h1>GET: Maths endPoint</h1>
+    <h1>List of possible query strings</h1>
+    <hr>
+    
+    <ul style="font-size:20px">
+        <li>Addition: <span>?op=+&x=50&y=25</span></li><br>
+        <li>Soustraction: <span>?op=-&x=50&y=25</span></li><br>
+        <li>Multiplication: <span>?op=*&x=50&y=25</span></li><br>
+        <li>Division: <span>?op=/&x=50&y=25</span></li><br>
+        <li>Modulo: <span>?op=%&x=50&y=7</span></li><br>
+        <li>Factorielle: <span>?op=!&n=5</span></li><br>
+        <li>Nombre premier: <span>?op=p&n=5</span></li><br>
+        <li>Nième nombre premier: <span>?op=np&n=5</span></li>
+    </ul>
+</body>
+
+</html>
+
+await Web_api_GetMath(host, "?op=+&x=2&y=4", showReslut)
